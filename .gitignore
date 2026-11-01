@@ -1,0 +1,25 @@
+# 运行期产物（本地生成，勿入库）
+archive/
+probe/
+templates/
+export/
+data/
+config.json
+*.zip
+
+# 可选：本地依赖与 adb（体积大，按需自备）
+tools/
+pylibs/
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
