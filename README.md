@@ -144,7 +144,7 @@ adb devices -l
 **启动工具**（Windows 双击）：
 
 ```text
-启动工具.cmd
+start.cmd
 ```
 
 会启动一个只监听 `127.0.0.1` 的本地服务并自动打开浏览器（默认 <http://127.0.0.1:8787/>，
@@ -341,7 +341,7 @@ keepsake/
 ├── LICENSE
 ├── requirements.txt
 ├── .gitignore
-├── 启动工具.cmd              Windows 一键启动
+├── start.cmd              Windows 一键启动
 ├── ui/
 │   └── index.html            本地网页界面（无构建、无框架）
 ├── scripts/
